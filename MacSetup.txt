@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo chmod -R 777 War.app
+sudo xattr -dr com.apple.quarantine War.app
